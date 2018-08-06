@@ -7,5 +7,5 @@ Checkout API - for e-commerce integration
 ### Mobile
 * Android Native (Comming soon)
 * iOS Native (Comming soon)
-* ReactNative (iOS+Andorid)
+* ReactNative (iOS+Android)
 * Flutter (iOS+Android)
