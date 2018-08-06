@@ -1,4 +1,4 @@
-# Chechout API - Flask
+# Checkout API - Flask
 This is the sample code for integrating checkout API with Python/Flask.
 
 ## Requirements
