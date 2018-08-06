@@ -1,8 +1,7 @@
 # Checkout API
 Checkout API - for e-commerce integration
 
-## Sample code
-Available sample codes are
+## Sample codes
 ### Web
 * Python/Flask 
 ### Mobile
