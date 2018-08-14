@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckOutDemo</string>
+    <string name="api_token">API TOKEN</string>
+    <string name="amount">Amount</string>
+    <string name="currency">Currency</string>
+    <string name="description">Description</string>
+    <string name="btn_check">Check Out</string>
+
+</resources>
