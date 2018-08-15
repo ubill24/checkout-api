@@ -4,7 +4,7 @@ Checkout API - for e-commerce integration
 ## Sample codes
 ### Web
 * [Python Flask](https://github.com/ubill24/checkout-api/tree/master/examples/web/flask)
-* Php (Comming soon...)
+* [PHP](https://github.com/ubill24/checkout-api/tree/master/examples/web/php)
 ### Mobile
 * [Android Native](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/android)
 * iOS Native (Comming soon...)
