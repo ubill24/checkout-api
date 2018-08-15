@@ -10,7 +10,7 @@
                         $order_date = date("m-d-y");
                         $amount = '5';
                         $description='Checkout from e-commerce website.';
-                        $api_token = 'd66f822f559c4b32ab1641ff43789d1e';
+                        $api_token = '65d9c9899eb54fef9afb4e44f10cdc21';
                     ?>
                     <h1 class="text-center text-primary">Order Confirmation</h1>
                     <hr>

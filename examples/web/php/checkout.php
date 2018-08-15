@@ -44,6 +44,6 @@ if (isset($_POST['submit'])) {
         $payment_url = $response_body['data']['payment_url'];
         header('Location: ' . $payment_url);
     } else {
-        echo $response_body['code'];
+        echo $response;
     }
 }
