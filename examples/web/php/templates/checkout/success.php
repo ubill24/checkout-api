@@ -1,4 +1,5 @@
 <?php include 'templates/header.php'; ?>
+<?php require_once 'checkout_confirm.php'?>
 <div class="container">
     <br><br>
     <div class="row justify-content-md-center">
@@ -13,42 +14,42 @@
                             <br><br><br>
                             <p class="lead">Thank you for your purchase!</p>
                             <br>
-                            <a role="button" class="btn btn-outline-primary" href="{{ url_for('order_confirm') }}">Continue Shopping</a>
+                            <a role="button" class="btn btn-outline-primary" href="index.php">Continue Shopping</a>
                         </div>
                         <div class="col-sm-7">
                             <table class="table table-bordered">
                                 <tr>
                                     <th>Transaction No.</th>
-                                    <td>{{ tran['tran_id'] }}</td>
+                                    <td><?php echo $data->tran_id ?></td>
                                 </tr>
                                 <tr>
                                     <th>Date</th>
-                                    <td>{{ tran['tran_date'] }}</td>
+                                    <td><?php echo $data->tran_date ?></td>
                                 </tr>
                                 <tr>
                                     <th>Amount</th>
                                     <td class="text-right">
-                                        {{ tran['tran_amount'] }}
-                                        <span class="badge badge-primary">{{ tran['currency'] }}</span>
+                                        <?php echo $data->tran_amount ?>
+                                        <span class="badge badge-primary"><?php echo $data->currency ?></span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>Fee Amount</th>
                                     <td class="text-right">
-                                        {{ tran['fee_amount'] }}
-                                        <span class="badge badge-primary">{{ tran['currency'] }}</span>
+                                        <?php echo $data->fee_amount ?>
+                                        <span class="badge badge-primary"><?php echo $data->currency ?></span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>Total Amount</th>
                                     <td class="text-right">
-                                        {{ tran['total_amount'] }}
-                                        <span class="badge badge-primary">{{ tran['currency'] }}</span>
+                                        <?php echo $data->total_amount ?>
+                                        <span class="badge badge-primary"><?php echo $data->currency ?></span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>Bank Reference No.</th>
-                                    <td>{{ tran['bank_reference_no'] }}</td>
+                                    <td><?php echo $data->bank_reference_no ?></td>
                                 </tr>
                             </table>
                         </div>

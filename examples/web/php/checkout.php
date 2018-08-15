@@ -1,18 +1,18 @@
 <?php
 
-if ( isset( $_POST['submit'] ) ) {
+if (isset($_POST['submit'])) {
     $token = $_POST['api_token'];
-    $url = 'https://checkoutapi-demo.bill24.net/transaction/init';
-    $checkout_success = 'http://localhost/checkout-api/checkout_success.php';
-    $checkout_fail = 'http://localhost/checkout-api/checkout_fail.php';
+    $url = 'https://checkoutapi-dev0.bill24.net/transaction/init';
+    $checkout_confirm = 'http://localhost/checkout-api/checkout_confirm.php';
+    $checkout_cancel = 'http://localhost/checkout-api/checkout_cancel.php';
 
     $data = [
         'reference_id' => $_POST['order_code'],
         'amount' => $_POST['amount'],
         'currency' => $_POST['currency'],
         'description' => $_POST['description'],
-        'confirm_url' => $checkout_success,
-        'cancel_url'  => $checkout_fail
+        'confirm_url' => $checkout_confirm,
+        'cancel_url' => $checkout_cancel
     ];
     $data_string = json_encode($data);
 
@@ -36,14 +36,14 @@ if ( isset( $_POST['submit'] ) ) {
 
     $response = curl_exec($curl);
     $err = curl_error($curl);
-
     curl_close($curl);
 
-    if ($err) {
-        echo "cURL Error #:" . $err;
+    $response_body = json_decode($response, true);
+
+    if ($response_body['code'] == 'SUCCESS') {
+        $payment_url = $response_body['data']['payment_url'];
+        header('Location: ' . $payment_url);
     } else {
-        $response_body = json_decode($response, true);
-        $payment_url =  $response_body['data']['payment_url'];
-        header('Location: '.$payment_url);
+        echo $response_body['code'];
     }
 }

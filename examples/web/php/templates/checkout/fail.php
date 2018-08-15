@@ -1,4 +1,5 @@
 <?php include 'templates/header.php'; ?>
+<?php require_once 'checkout_cancel.php'?>
 <div class="container">
     <br><br>
     <div class="row justify-content-md-center">
@@ -10,14 +11,14 @@
                     <table class="table">
                         <tr>
                             <th>Error Code</th>
-                            <td>{{ error_code }}</td>
+                            <td><?php echo $error_code ?></td>
                         </tr>
                         <tr>
                             <th>Error Message</th>
-                            <td>{{ error_message }}</td>
+                            <td><?php echo $error_message?></td>
                         </tr>
                     </table>
-                    <a role="button" class="btn btn-outline-primary" href="{{ url_for('order_confirm') }}">Back to Home</a>
+                    <a role="button" class="btn btn-outline-primary" href="index.php">Back to Home</a>
                 </div>
             </div>
         </div>
