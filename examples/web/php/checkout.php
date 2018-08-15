@@ -3,8 +3,8 @@
 if (isset($_POST['submit'])) {
     $token = $_POST['api_token'];
     $url = 'https://checkoutapi-dev0.bill24.net/transaction/init';
-    $checkout_confirm = 'http://localhost/checkout-api/checkout_confirm.php';
-    $checkout_cancel = 'http://localhost/checkout-api/checkout_cancel.php';
+    $checkout_confirm = 'http://localhost/checkout-api/examples/web/php/checkout_confirm.php';
+    $checkout_cancel = 'http://localhost/checkout-api/examples/web/php/checkout_cancel.php';
 
     $data = [
         'reference_id' => $_POST['order_code'],
@@ -44,7 +44,11 @@ if (isset($_POST['submit'])) {
         $payment_url = $response_body['data']['payment_url'];
         header('Location: ' . $payment_url);
     } else {
-        echo $response;
-//        header('Location: ' . $checkout_cancel);
+        $response_message = array(
+            'code'=>$response_body['code'],
+            'message'=>$response_body['message']
+        );
+        $url = http_build_query($response_message);
+        header("Location: ". $checkout_cancel . "?" . $url);
     }
 }
