@@ -5,6 +5,7 @@ if (isset($_POST['submit'])) {
     $url = 'https://checkoutapi-dev0.bill24.net/transaction/init';
     $checkout_confirm = 'http://localhost/checkout-api/examples/web/php/checkout_confirm.php';
     $checkout_cancel = 'http://localhost/checkout-api/examples/web/php/checkout_cancel.php';
+    $pay_later_url  = 'http://localhost/checkout-api/examples/web/php/pay_later.php';
 
     $data = [
         'reference_id' => $_POST['order_code'],
@@ -12,7 +13,8 @@ if (isset($_POST['submit'])) {
         'currency' => $_POST['currency'],
         'description' => $_POST['description'],
         'confirm_url' => $checkout_confirm,
-        'cancel_url' => $checkout_cancel
+        'cancel_url' => $checkout_cancel,
+        'pay_later_url' => $pay_later_url
     ];
     $data_string = json_encode($data);
 
