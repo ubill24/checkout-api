@@ -8,8 +8,9 @@ app.config['SECRET_KEY'] = '1234567890'
 
 import os
 
-API_TOKEN = os.getenv('API_TOKEN') or 'b8323ea1b53a4cb3b2c8f0163fa159cd'
-API_URL = os.getenv('API_URL') or 'https://checkoutapi-demo.bill24.net'
+# API_TOKEN = os.getenv('API_TOKEN') or '65d9c9899eb54fef9afb4e44f10cdc21'
+API_TOKEN = '65d9c9899eb54fef9afb4e44f10cdc21'
+API_URL = os.getenv('API_URL') or 'https://checkoutapi-dev0.bill24.net'
 
 
 @app.route('/')
@@ -50,7 +51,8 @@ def checkout():
         'currency': form['currency'],
         'description': form['description'],
         'confirm_url': url_for('checkout_success', _external=True),
-        'cancel_url': url_for('checkout_fail', _external=True)
+        'cancel_url': url_for('checkout_fail', _external=True),
+        'pay_later_url': url_for('pay_later', _external=True)
     }
     response = requests.post(url=url, headers=headers, json=payload, verify=False)
     response_body = json.loads(response.content)
@@ -60,7 +62,13 @@ def checkout():
         payment_url = response_body['data']['payment_url']
         return redirect(payment_url)
     else:
-        return json.dumps(response_body)
+        error_code = response_body['code']
+        error_message = response_body['message']
+        return render_template(
+            'checkout/fail.html',
+            error_code=error_code,
+            error_message=error_message
+        )
 
 
 @app.route('/checkout/success', methods=['GET'])
@@ -76,22 +84,29 @@ def checkout_success():
             tran=tran
         )
     else:
-        return render_template(
-            'checkout/fail.html',
-            error_code=code,
-            error_message=message
-        )
+        return checkout_fail()
 
 
 @app.route('/checkout/fail', methods=['GET'])
 def checkout_fail():
     data = request.args.to_dict(flat=True)
-    error_code = '0000'
-    error_message = 'Error'
+
+    error_code = data.get('code')
+    error_message = data.get('message')
     return render_template(
         'checkout/fail.html',
         error_code=error_code,
         error_message=error_message
+    )
+
+
+@app.route('/checkout/pay-later', methods=['GET'])
+def pay_later():
+    data = request.args.to_dict(flat=True)
+    bill = json.loads(data.get('data'))
+    return render_template(
+        'checkout/pay-later.html',
+        bill=bill
     )
 
 
