@@ -6,7 +6,7 @@ Requirements
 
 ==> build.gradle(Module:app)
 dependencies {
-   
+
     // JSON Parsing
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.google.code.gson:gson:2.8.5'
@@ -17,10 +17,8 @@ dependencies {
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     implementation 'com.amitshekhar.android:android-networking:1.0.2'
+	
 }
-
-==> AndroidManiest.xml
-    <uses-permission android:name="android.permission.INTERNET" />
     
     
 
