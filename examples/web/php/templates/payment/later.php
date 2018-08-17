@@ -58,7 +58,6 @@
                             <strong class="agencies-title">Pay with agencies:</strong>
                             <div class="agencies-img">
                                 <?php
-                                $colors = array("red", "green", "blue", "yellow");
 
                                 foreach ($data->biller_codes as $agency_img) {
                                     echo "<img src='$agency_img'>";
