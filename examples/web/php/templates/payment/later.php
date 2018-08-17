@@ -57,7 +57,12 @@
                         <div class="agencies">
                             <strong class="agencies-title">Pay with agencies:</strong>
                             <div class="agencies-img">
-                                <img src="https://s3-ap-southeast-1.amazonaws.com/seng-bucket/images/wing_logo.jpg" width="50" height="50">
+                                <?php
+
+                                foreach ($data->biller_codes as $agency_img) {
+                                    echo "<img src='$agency_img'>";
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
