@@ -7,5 +7,7 @@ target 'CheckOut24' do
     pod 'WKBridge'
     pod 'Alamofire', '~> 4.7'
     pod 'SwiftyJSON', '~> 4.0'
+    pod 'QRCode'
+    pod 'Kingfisher', '~> 4.0'
 end
 

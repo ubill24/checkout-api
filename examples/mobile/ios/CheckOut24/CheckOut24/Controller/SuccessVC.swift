@@ -58,6 +58,8 @@ class SuccessVC: UIViewController {
         let decoder = JSONDecoder()
         let jsonDATA = try! decoder.decode(ReceiveData.self, from: jsonData)
 
+        print("jsonDATA = ",jsonDATA)
+        
         let bank_referenceT: String = (jsonDATA.data?.bank_reference_no)!
         let transaction_noT: String = (jsonDATA.data?.tran_id)!
         let total_amountT: Double = (jsonDATA.data?.total_amount)!

@@ -22,7 +22,8 @@
         <activity android:name=".WebViewActivity" />
         <activity android:name=".SuccessActivity" />
         <activity android:name=".Error" />
-        <activity android:name=".CancelActivity"></activity>
+        <activity android:name=".CancelActivity" />
+        <activity android:name=".InvoiceActivity"></activity>
     </application>
 
 </manifest>
