@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		432B26D053DDD1830F8B4629 /* Pods_CheckOut24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD9C13EEE2378EB67DBDA97 /* Pods_CheckOut24.framework */; };
+		4D0F337421265BB9005A2824 /* InvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F337321265BB9005A2824 /* InvoiceVC.swift */; };
+		4D0F33762126B98F005A2824 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F33752126B98F005A2824 /* ImageCollectionViewCell.swift */; };
 		4D316F4D211A9B50006877C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D316F4C211A9B50006877C6 /* AppDelegate.swift */; };
 		4D316F4F211A9B50006877C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D316F4E211A9B50006877C6 /* ViewController.swift */; };
 		4D316F52211A9B50006877C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D316F50211A9B50006877C6 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		22C8E2C02D48AB0C590616A2 /* Pods-CheckOut24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckOut24.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckOut24/Pods-CheckOut24.release.xcconfig"; sourceTree = "<group>"; };
 		4C21ED07933B55F9CBAF7876 /* Pods-CheckOut24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckOut24.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckOut24/Pods-CheckOut24.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0F337321265BB9005A2824 /* InvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceVC.swift; sourceTree = "<group>"; };
+		4D0F33752126B98F005A2824 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D316F49211A9B50006877C6 /* CheckOut24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckOut24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D316F4C211A9B50006877C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D316F4E211A9B50006877C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				4D316F8A211A9ED3006877C6 /* SuccessVC.swift */,
 				4D316F8C211A9EEF006877C6 /* ErrorVC.swift */,
 				4D368F9B2123D167000BF4AD /* CancelVC.swift */,
+				4D0F337321265BB9005A2824 /* InvoiceVC.swift */,
+				4D0F33752126B98F005A2824 /* ImageCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -400,12 +406,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CheckOut24/Pods-CheckOut24-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/WKBridge/WKBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKBridge.framework",
 			);
@@ -444,6 +454,8 @@
 				4D316F8D211A9EEF006877C6 /* ErrorVC.swift in Sources */,
 				4D316F4F211A9B50006877C6 /* ViewController.swift in Sources */,
 				4D316F91211A9F5D006877C6 /* Config.swift in Sources */,
+				4D0F337421265BB9005A2824 /* InvoiceVC.swift in Sources */,
+				4D0F33762126B98F005A2824 /* ImageCollectionViewCell.swift in Sources */,
 				4D316F87211A9DF3006877C6 /* CheckOut.swift in Sources */,
 				4D316F89211A9EB5006877C6 /* CheckOutVC.swift in Sources */,
 				4D316F4D211A9B50006877C6 /* AppDelegate.swift in Sources */,

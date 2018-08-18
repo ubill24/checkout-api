@@ -81,6 +81,13 @@ class CheckOutVC: UIViewController, WKNavigationDelegate {
                                 navigator.pushViewController(viewController, animated: true)
                             }
                         }
+                    }else if(getCode == "PENDING"){
+                        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "invoice") as? InvoiceVC {
+                            viewController.receiveData = json
+                            if let navigator = self.navigationController {
+                                navigator.pushViewController(viewController, animated: true)
+                            }
+                        }
                     }else if(getCode == "400"){
                         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "error") as? ErrorVC {
                             if let navigator = self.navigationController {
