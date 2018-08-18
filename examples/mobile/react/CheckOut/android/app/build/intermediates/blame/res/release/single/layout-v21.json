@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

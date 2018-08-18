@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/youraleangseng/.android/build-cache/5f550dba3e8623d2f2b38c9e33840fcd87564369/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/youraleangseng/.android/build-cache/5f550dba3e8623d2f2b38c9e33840fcd87564369/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/youraleangseng/.android/build-cache/03eaa3e41d83be6db57e115ad35bfb377df447e8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/youraleangseng/.android/build-cache/76b3dea1b17e2540d8f554567b9b3804b010d056/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/youraleangseng/.android/build-cache/15dbe22d3f08b8f5805d4c3ef692765c6db119f7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/youraleangseng/.android/build-cache/c9dc868e05a438592aba08a35fff29742647237e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/6271276768a85b10f7831562727ffc3c7485cce4/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/b3b92ed4c15ed2af0323e498c3be3abfb4d2d390/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/youraleangseng/.android/build-cache/897f00fd79401d15e457249845b84aa76b08a8b8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/youraleangseng/.android/build-cache/4c02b7118f40a7d3c06d5312958aee4e5ed15b7e/output/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/youraleangseng/.android/build-cache/61ee2079bc56632982f466bf7288be3ffe08221a/output/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:allowBackup
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:icon
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:theme
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.checkout.MainActivity
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [CheckOut:react-native-vector-icons:unspecified] /Users/youraleangseng/Documents/BILL24/project/CheckOut/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/youraleangseng/.android/build-cache/5f550dba3e8623d2f2b38c9e33840fcd87564369/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/youraleangseng/.android/build-cache/03eaa3e41d83be6db57e115ad35bfb377df447e8/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/youraleangseng/.android/build-cache/76b3dea1b17e2540d8f554567b9b3804b010d056/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/youraleangseng/.android/build-cache/15dbe22d3f08b8f5805d4c3ef692765c6db119f7/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/youraleangseng/.android/build-cache/c9dc868e05a438592aba08a35fff29742647237e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/6271276768a85b10f7831562727ffc3c7485cce4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/b3b92ed4c15ed2af0323e498c3be3abfb4d2d390/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/youraleangseng/.android/build-cache/897f00fd79401d15e457249845b84aa76b08a8b8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/youraleangseng/.android/build-cache/b2313f89930f71bcb3228d709212fe1c4b54b8f6/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/youraleangseng/.android/build-cache/7f6132d1121137080d2c29d01c108e3f56c95593/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/youraleangseng/.android/build-cache/181a5b8d553852f62498ec5647e018b7521b761e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/youraleangseng/.android/build-cache/82cc8c4696d462e9c0f6ca5c9881c577809bf6b8/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/youraleangseng/.android/build-cache/ec1fa845f1cb6109c703f96c431a1c36ff6f5c82/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/youraleangseng/.android/build-cache/231baeb21ecd1a24814998a7a2fa770cbbd99b32/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/youraleangseng/.android/build-cache/a61e4e9587ef4190e2340d5221fdcd6770a02a8b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/youraleangseng/.android/build-cache/4c02b7118f40a7d3c06d5312958aee4e5ed15b7e/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/youraleangseng/.android/build-cache/03eaa3e41d83be6db57e115ad35bfb377df447e8/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/youraleangseng/.android/build-cache/76b3dea1b17e2540d8f554567b9b3804b010d056/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/youraleangseng/.android/build-cache/15dbe22d3f08b8f5805d4c3ef692765c6db119f7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/youraleangseng/.android/build-cache/c9dc868e05a438592aba08a35fff29742647237e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/6271276768a85b10f7831562727ffc3c7485cce4/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/youraleangseng/.android/build-cache/b3b92ed4c15ed2af0323e498c3be3abfb4d2d390/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/youraleangseng/.android/build-cache/897f00fd79401d15e457249845b84aa76b08a8b8/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/AndroidManifest.xml:26:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

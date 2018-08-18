@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/181a5b8d553852f62498ec5647e018b7521b761e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="da59c80e4a1c8df62d2b4188ef3efddab8afa236">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_85464a78e6a61264974e94b998b8e26d43cae314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/15dbe22d3f08b8f5805d4c3ef692765c6db119f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_96490dc2bedeccd8d48529787a5a792295846b28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/abc6a606a5faae7efce77cdeff5b0678cf680e0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_c1e6d07047ba57ae53b37f26ceb8c09c89508280.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/Documents/BILL24/project/CheckOut/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_c7d8cf3762f648d1e1001ecf7724d9b8e0861f03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/4c02b7118f40a7d3c06d5312958aee4e5ed15b7e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="9803a14716e9f462afb5742811f3456c39f3be3a">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_b8184575e3a30ecf4787aa31f69594286dc15d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/6271276768a85b10f7831562727ffc3c7485cce4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_cb2a6e76a0e93dae0698f7874b29b14108e30a5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/897f00fd79401d15e457249845b84aa76b08a8b8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_46ea90241e8a1e99b2443824fe55bb9cec497ddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/b2313f89930f71bcb3228d709212fe1c4b54b8f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_6df9d8a435861d1ee0cb6f36defb716f957f98e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/82cc8c4696d462e9c0f6ca5c9881c577809bf6b8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="dc6c0959ecc7b21932675183573b2bcecf2687b9">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_53aa7e85ec840e269c59cf5c322ec30a24fdc18d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/b3b92ed4c15ed2af0323e498c3be3abfb4d2d390/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_baf862b31e469d0017e2e2a94a10d42cd8a8c82c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/5f550dba3e8623d2f2b38c9e33840fcd87564369/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_caac73ad758ba8c53ae9e1755cd7c0dda2bc49b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/76b3dea1b17e2540d8f554567b9b3804b010d056/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_2fbea1f87f9f1ef2ba8e5f359223042b063e9aee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/c9dc868e05a438592aba08a35fff29742647237e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_54519950c3182acd16420a16b839b3c827f0e528.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/ec1fa845f1cb6109c703f96c431a1c36ff6f5c82/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="1c9837ec75b2273699379c2ba0ae63d669b4f08c">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_3477ef62e8d98989b6c1b843b3b7fa38414ec4a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/7f6132d1121137080d2c29d01c108e3f56c95593/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f80a752d1333efd4fb9b87da63e73909acb151af">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_92a31fcbe2d5d1ce020a146a7d66fd6116fd9b70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/5f550dba3e8623d2f2b38c9e33840fcd87564369/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_1b8519586b6cfc4685e1a919e75b18ed20192451.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/a61e4e9587ef4190e2340d5221fdcd6770a02a8b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="ae15c560bc6685007440d8a70686f8348bafd791">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_7e243ed0401343507c8d07c58633fe22eaf7953e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/8399f1dd49ab48e55c6c14d8a6bc2c22a920304b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_bc48fe22b24730b457391999844f65de7f149bb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/03eaa3e41d83be6db57e115ad35bfb377df447e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_a0a97dec4b82fd95b28b4480130a5d98fc8e65c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/231baeb21ecd1a24814998a7a2fa770cbbd99b32/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="87382214d92be4e3c931cb6aa7aa4e827bc179b7">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_4b4e6fe91eb54f160f89f826a9b4511e41bea30e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/youraleangseng/.android/build-cache/78b04155f5e5eac514ddec60279eb41f7a596ab8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/youraleangseng/Documents/BILL24/project/CheckOut/android/app/build/intermediates/pre-dexed/debug/classes_deef8c11660ad58946ad87b494851bb38edf1532.jar" />
+    </item>
+
+</items>
