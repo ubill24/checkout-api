@@ -132,6 +132,13 @@ export default styles = StyleSheet.create({
         paddingLeft: 20,
         paddingRight: 20
     },
+    subTitle1: {
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        flexDirection: 'row',
+        paddingLeft: 30,
+        paddingRight: 30
+    },
     textLeft: {
         flexDirection: 'column',
         alignItems: 'center'
@@ -160,5 +167,40 @@ export default styles = StyleSheet.create({
         paddingRight: 10,
         paddingTop: 5,
         paddingBottom: 5
-    }
+    },
+    noAttachmentWrapper:{
+        alignItems:'center',
+        justifyContent:'center',
+        borderColor:'#f2f2f2',
+        width:'100%',
+        flex:1,
+        backgroundColor:'#FAFAFA',
+        borderRadius: 3,
+        marginBottom: 2
+    },
+    listImageAttachment:{
+     backgroundColor: 'transparent',
+     justifyContent: 'space-between',
+     flexDirection:'row',
+     marginLeft: 0,
+     marginRight:0,
+     paddingLeft: 0,
+     paddingRight: 0,
+     paddingTop: 0,
+     paddingBottom:0,
+     flex:1,
+     marginTop: 5,
+ },
+ imageView: {
+       width:100,
+       height:130,
+       borderWidth:0.5,
+       borderColor:'white',
+   },
+    labelTextInput:{
+        alignSelf:'flex-start',
+        textAlign:'center',
+        margin:0,
+        padding:0,
+    },
 });

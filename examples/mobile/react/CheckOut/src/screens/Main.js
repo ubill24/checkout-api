@@ -26,7 +26,7 @@ import Icons from 'react-native-vector-icons/Ionicons';
 const IS_IOS = Platform.OS === 'ios';
 
 
-const TOKEN = 'a8024ffe355342ef890fcebed5ad3009';
+const TOKEN = '4115698f6cfb432a81dc650cf4f0bad4';
 const DATA = {
     "description": "Extra note",
     "currency": "USD",
@@ -34,7 +34,7 @@ const DATA = {
     "reference_id": "YOURA869718501",
     "webview": true
 };
-const API_URL = 'https://checkoutapi-demo.bill24.net/transaction/init';
+const API_URL = 'https://checkoutapi-dev0.bill24.net/transaction/init';
 
 export default class Main extends React.Component {
     constructor(props){
@@ -95,15 +95,18 @@ export default class Main extends React.Component {
         let dataJoson = JSON.parse(data.nativeEvent.data);
         console.log(" dataJoson ===> ",dataJoson);
         if (dataJoson.code === "SUCCESS") {
-            this.props.navigation.navigate("SuccessStack",{data: dataJoson.data}) 
-        }else if (dataJoson.code === "400") {
+            this.props.navigation.navigate("SuccessStack",{data: dataJoson.data})
+        }else if (dataJoson.code === "PENDING") {
+          this.props.navigation.navigate("InvoiceStack",{data: dataJoson.data})
+        }
+        else if (dataJoson.code === "400") {
             this.props.navigation.navigate("ErrorStack")
         }else if (dataJoson.code === "499"){
             this.props.navigation.navigate("UserCancelStack")
         } else {
             this.props.navigation.navigate("Main",)
         }
-       
+
     }
 
     _handleOnMessage(data){

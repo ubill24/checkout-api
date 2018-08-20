@@ -4,6 +4,7 @@ import Main from './src/screens/Main';
 import Success from './src/screens/Success';
 import Error from './src/screens/Error';
 import UserCancel from './src/screens/UserCancel';
+import Invoice from './src/screens/Invoice';
 const HomeStack = createStackNavigator({
     Main: {
         screen: Main,
@@ -24,6 +25,22 @@ const HomeStack = createStackNavigator({
     },
     SuccessStack: {
       screen: Success,
+      navigationOptions: () => ({
+            headerStyle: {
+                backgroundColor: '#03A9F4',
+                borderBottomWidth: 0,
+            },
+            title:'Check Out Success',
+            headerTitleStyle: {
+                color: 'white',
+            },
+            headerBackTitleStyle: {
+                color: '#ffffff',
+            },
+            headerTintColor: '#ffffff',
+        }),
+    },InvoiceStack: {
+      screen: Invoice,
       navigationOptions: () => ({
             headerStyle: {
                 backgroundColor: '#03A9F4',
