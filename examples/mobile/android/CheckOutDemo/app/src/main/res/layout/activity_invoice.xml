@@ -31,10 +31,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/invoice_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/invoice_no"
+=======
+                android:id="@+id/fee_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fee_amount"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
@@ -45,10 +52,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/reference_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/reference_no"
+=======
+                android:id="@+id/total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="total_amount"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
@@ -59,10 +73,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Date"
+=======
+                android:id="@+id/tran_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tran_amount"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
@@ -73,10 +94,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amount"
+=======
+                android:id="@+id/reference_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reference_id"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
@@ -87,24 +115,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/description"
+=======
+                android:id="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="currency"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
                 android:layout_marginLeft="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"/>
         </FrameLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+<<<<<<< HEAD
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Payment Link :"
+=======
+                android:id="@+id/tran_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tran_date"
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintRight_toRightOf="parent"
@@ -114,6 +159,7 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+<<<<<<< HEAD
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -146,6 +192,8 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+=======
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
@@ -158,5 +206,26 @@
             android:id="@+id/guideline"
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.5"/>
+<<<<<<< HEAD
+=======
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Shop" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="070 213 470" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No.10 Sangkat Phnom Penh, Khan Sen Sok, Phnom Penh" />
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

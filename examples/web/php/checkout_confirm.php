@@ -5,7 +5,7 @@ $data = $output['data'];
 $code = $output['code'];
 $data = json_decode($data);
 
-if ($_GET['code'] == 'SUCCESS') {
+if ($code == 'SUCCESS') {
     require_once 'templates/checkout/success.php';
 } else {
     require_once 'templates/checkout/fail.php';

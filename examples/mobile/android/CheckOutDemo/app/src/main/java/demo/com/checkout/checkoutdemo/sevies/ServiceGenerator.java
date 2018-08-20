@@ -9,13 +9,11 @@ import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by srsc12 on 0006-06-Jan-01-2017.
- */
 
 public class ServiceGenerator {
 
-    public static final String API_BASE_URL = "https://checkoutapi-dev0.bill24.net/";
+    public static final String API_BASE_URL = "https://checkoutapi-demo.bill24.net/";
+    public static final String TOKEN = "a8024ffe355342ef890fcebed5ad3009";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
@@ -32,7 +30,11 @@ public class ServiceGenerator {
                 Request original = chain.request();
 
                 Request.Builder requestBuilder = original.newBuilder()
+<<<<<<< HEAD
                         .header("token" , "4115698f6cfb432a81dc650cf4f0bad4")
+=======
+                        .header("token" , TOKEN)
+>>>>>>> 4548b499b0ad6e1ac18ff8ab04347e4b3936a7e9
                         .header("Content-Type" , "application/json")
                         .header("Accept" , "application/json")
                         .method(original.method() , original.body()) ;

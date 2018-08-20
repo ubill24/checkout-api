@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <br><br>
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-center text-primary">Invoice</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Online Shop</h3>
+                                <p>012000999</p>
+                                <p>No.10 Sangkat Phnom Penh Tmey, Khan Sen Sok, Phnom Penh.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><small>Invoice No.:</small> {{ bill.bill_code }}</h5>
+                                <h5><small>Reference No.:</small> {{ bill.reference_id }}</h5>
+                                <h5><small>Date:</small> {{ bill.bill_date }}</h5>
+                                <h5><small>Amount:</small> {{ bill.amount }} {{ bill.currency }}</h5>
+                                <h5><small>Description:</small> {{ bill.description }}</h5>
+                            </div>
+                        </div>
+                        <div style="margin-top: 20px; width: 100%; float: left; border: 1px solid #ccc; padding: 15px; display: flex;">
+                            <div style="float: left; width: 50%; padding-right: 5px;">
+                                <div id="payment-url-qrcode" style="float:left;margin-right:10px;"></div>
+                                <strong style="display:inline-block;margin-bottom:10px;">Payment Link:</strong><br/>
+                                <span>You can use this QR code to mak a payment via B24 online app.</span>
+                            </div>
+                            <div style="float: right; width: 50%; padding-left: 15px; border-left: 1px solid #ccc;">
+                                <strong style="display: block; margin-bottom: 10px;">Pay with agencies:</strong>
+                                <div style="float: left;">
+                                    {% for item in bill.biller_codes %}
+                                        <img src="{{ item }}">
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#payment-url-qrcode").qrcode({
+                render: "image",
+                width: 120,
+                height: 120,
+                text: "{{ bill.payment_url}}"
+            });
+        });
+    </script>
+{% endblock %}
