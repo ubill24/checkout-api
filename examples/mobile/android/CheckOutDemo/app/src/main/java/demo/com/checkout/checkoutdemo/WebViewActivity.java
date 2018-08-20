@@ -73,6 +73,10 @@ public class WebViewActivity extends AppCompatActivity {
                     Intent myIntent = new Intent(getBaseContext(), SuccessActivity.class);
                     myIntent.putExtra("value1",data);
                     startActivity(myIntent);
+                }else if(code.equals("PENDING")) {
+                    Intent myIntent = new Intent(getBaseContext(), InvoiceActivity.class);
+                    myIntent.putExtra("value1",data);
+                    startActivity(myIntent);
                 }else {
                     Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
                     startActivity(myIntent);

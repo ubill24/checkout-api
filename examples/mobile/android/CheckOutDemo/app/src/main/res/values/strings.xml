@@ -6,4 +6,10 @@
     <string name="description">Description</string>
     <string name="btn_check">Check Out</string>
 
+    <string name="invoice_no">Invoice No.</string>
+    <string name="reference_no">Reference No.</string>
+    <string name="Date">Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

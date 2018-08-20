@@ -32,7 +32,7 @@ public class ServiceGenerator {
                 Request original = chain.request();
 
                 Request.Builder requestBuilder = original.newBuilder()
-                        .header("token" , "c696e16967e242d9ae9a5bfb2de8867d")
+                        .header("token" , "4115698f6cfb432a81dc650cf4f0bad4")
                         .header("Content-Type" , "application/json")
                         .header("Accept" , "application/json")
                         .method(original.method() , original.body()) ;

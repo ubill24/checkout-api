@@ -3,6 +3,7 @@
     package="demo.com.checkout.checkoutdemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,8 @@
         <activity android:name=".WebViewActivity" />
         <activity android:name=".SuccessActivity" />
         <activity android:name=".Error" />
-        <activity android:name=".CancelActivity"></activity>
+        <activity android:name=".CancelActivity" />
+        <activity android:name=".InvoiceActivity"></activity>
     </application>
 
 </manifest>

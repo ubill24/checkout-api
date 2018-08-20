@@ -56,6 +56,7 @@ public class PostResponse<E> {
     @SerializedName("payment_url")
     @Expose
     private String payment_url;
+    @SerializedName("bill_code")
 
     public String getTranId() {
         return tranId;
