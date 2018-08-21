@@ -9,8 +9,8 @@ app.config['SECRET_KEY'] = '1234567890'
 import os
 
 # API_TOKEN = os.getenv('API_TOKEN') or '65d9c9899eb54fef9afb4e44f10cdc21'
-API_TOKEN = '65d9c9899eb54fef9afb4e44f10cdc21'
-API_URL = os.getenv('API_URL') or 'https://checkoutapi-dev0.bill24.net'
+API_TOKEN = '915001ee060142b4995498057d6f90ff'
+API_URL = os.getenv('API_URL') or 'https://checkoutapi-demo.bill24.net'
 
 
 @app.route('/')

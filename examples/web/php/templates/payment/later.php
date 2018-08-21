@@ -58,10 +58,10 @@
                             <strong class="agencies-title">Pay with agencies:</strong>
                             <div class="agencies-img">
                                 <?php
-
-                                foreach ($data->biller_codes as $agency_img) {
-                                    echo "<img src='$agency_img'>";
-                                }
+                                    $agencies =  $data->biller_codes;
+                                    foreach( $agencies as $agency ) {
+                                        echo "<img src='$agency'>";
+                                    }
                                 ?>
                             </div>
                         </div>

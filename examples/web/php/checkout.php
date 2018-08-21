@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
     $token = $_POST['api_token'];
-    $url = 'https://checkoutapi-dev0.bill24.net/transaction/init';
+    $url = 'https://checkoutapi-demo.bill24.net/transaction/init';
     $checkout_confirm = 'http://localhost/checkout-api/examples/web/php/checkout_confirm.php';
     $checkout_cancel = 'http://localhost/checkout-api/examples/web/php/checkout_cancel.php';
     $pay_later_url  = 'http://localhost/checkout-api/examples/web/php/pay_later.php';
