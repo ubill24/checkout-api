@@ -61,13 +61,12 @@ body {
     display: block;
 }
 .agencies-img {
-    float: left;
-    margin-top: 20px;
+    width: 50%; float: left;
 }
 .agencies-img img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    width: 40%;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 .print  img {
     margin-right: 20px;
