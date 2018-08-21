@@ -63,6 +63,11 @@ body {
 .agencies-img {
     width: 50%; float: left;
 }
+.agencies-img img {
+    width: 40%;
+    margin-top: 15px;
+    margin-right: 5px;
+}
 .print  img {
     margin-right: 20px;
 }
