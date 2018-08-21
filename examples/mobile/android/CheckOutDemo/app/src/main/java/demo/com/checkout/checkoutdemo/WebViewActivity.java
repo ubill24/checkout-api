@@ -9,7 +9,6 @@ import android.util.Log;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -73,6 +72,10 @@ public class WebViewActivity extends AppCompatActivity {
                     Intent myIntent = new Intent(getBaseContext(), SuccessActivity.class);
                     myIntent.putExtra("value1",data);
                     startActivity(myIntent);
+                }else if(code.equals("PENDING")) {
+                    Intent myIntent = new Intent(getBaseContext(), InvoiceActivity.class);
+                    myIntent.putExtra("value1",data);
+                    startActivity(myIntent);
                 }else {
                     Intent myIntent = new Intent(getBaseContext(), MainActivity.class);
                     startActivity(myIntent);
@@ -80,9 +83,6 @@ public class WebViewActivity extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
-
-
         }
     }
 }

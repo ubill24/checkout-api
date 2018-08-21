@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         final TextInputEditText amountEt = (TextInputEditText) findViewById(R.id.amounts);
         final TextInputEditText currencyEt = (TextInputEditText) findViewById(R.id.currencys);
         final TextInputEditText descriptionEt = (TextInputEditText) findViewById(R.id.descriptions);
-        api_tokenEt.setText("c696e16967e242d9ae9a5bfb2de8867d");
+        api_tokenEt.setText("a8024ffe355342ef890fcebed5ad3009");
         amountEt.setText("100");
         currencyEt.setText("USD");
         descriptionEt.setText("Check out description");
