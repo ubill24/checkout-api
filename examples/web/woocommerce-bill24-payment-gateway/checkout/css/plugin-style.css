@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.invoice-header {
+    font-size: 14px;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.bill-code {
+    color: blue;
+}
+
+.payment-box {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.qrcode {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+}
+
+#payment-url-qrcode {
+    float: left;
+    margin-right: 10px;
+}
+
+.payment-title {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.payment-description {
+    font-size: 14px;
+}
+
+.agencies {
+    float: right;
+    width: 50%;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+.agencies-title {
+    display: block;
+}
+.agencies-img {
+    width: 50%; float: left;
+}
+.agencies-img img {
+    width: 40%;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.print  img {
+    margin-right: 20px;
+}
+
+.col{
+    text-align: left !important;
+}

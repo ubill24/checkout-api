@@ -8,9 +8,9 @@ Checkout API - for e-commerce integration
 * C# ASP.NET MVC (Comming soon...)
 
 ### E-Commerce
-* Magento (Comming soon...)
+* Magento
 * OpenCart (Comming soon...)
-* Woocommerce (Comming soon...)
+* Woocommerce (https://github.com/ubill24/checkout-api/tree/master/examples/web/woocommerce-bill24-payment-gateway)
 
 ### Mobile
 * [Android Native](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/android)
