@@ -1,5 +1,21 @@
-<?php include 'templates/header.php'; ?>
-<?php require_once 'pay_later.php'?>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill 24 | Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link type="text/css" rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<?php require_once 'pay_later.php' ?>
 <div class="container">
     <br><br>
     <div class="row justify-content-md-center">
@@ -9,7 +25,7 @@
                     <div class="row">
                         <div class="col-sm-6 logo">
                             <?php
-                                echo "<img src='./images/logo.jpg' alt='logo' />";
+                            echo "<img src='../images/logo.jpg' alt='logo' />";
                             ?>
                             <br>
                             <div>
@@ -43,7 +59,8 @@
                             <th scope="row"><?php echo $data->reference_id ?></th>
                             <td><?php echo $data->bill_date ?></td>
                             <td><?php echo $data->description ?></td>
-                            <td><?php echo $data->amount ?><span class="badge badge-primary"><?php echo $data->currency ?></span></td>
+                            <td><?php echo $data->amount ?><span
+                                        class="badge badge-primary"><?php echo $data->currency ?></span></td>
                         </tr>
                         </tbody>
                     </table>
@@ -58,18 +75,18 @@
                             <strong class="agencies-title">Pay with agencies:</strong>
                             <div class="agencies-img">
                                 <?php
-                                    $agencies =  $data->biller_codes;
-                                    foreach( $agencies as $agency ) {
-                                        echo "<img src='$agency'>";
-                                    }
+                                $agencies = $data->biller_codes;
+                                foreach ($agencies as $agency) {
+                                    echo "<img src='$agency'>";
+                                }
                                 ?>
                             </div>
                         </div>
                     </div>
                     <div class="print text-center">
-                        <a href="#"> <?php echo "<img src='./images/printer.png'​​>" ?></a>
-                        <a href="#"><?php echo "<img src='./images/pdf.png'>" ?></a>
-                        <a href="index.php"> <?php echo "<img src='./images/home.png'>" ?></a>
+                        <a href="#"> <?php echo "<img src='../images/printer.png'​​>" ?></a>
+                        <a href="#"><?php echo "<img src='../images/pdf.png'>" ?></a>
+                        <a href="index.php"> <?php echo "<img src='../images/home.png'>" ?></a>
                     </div>
                 </div>
             </div>
@@ -77,15 +94,20 @@
     </div>
 
 </div>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $("#payment-url-qrcode").qrcode({
-            render: "image",
-            width: 120,
-            height: 120,
-            text: "<?php $data->payment_url ?>"
+<?php
+    echo "
+        <script type='text/javascript'>
+        $(document).ready(function () {
+            $('#payment-url-qrcode').qrcode({
+                render: 'image',
+                width: 120,
+                height: 120,
+                text: '<?php $data->payment_url ?>'
+            });
+    
         });
-
-    });
-</script>
-<?php include 'templates/footer.php' ?>
+    </script>
+    ";
+?>
+</body>
+</html>

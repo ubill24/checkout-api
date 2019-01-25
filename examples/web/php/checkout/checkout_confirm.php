@@ -6,7 +6,7 @@ $code = $output['code'];
 $data = json_decode($data);
 
 if ($code == 'SUCCESS') {
-    require_once 'templates/checkout/success.php';
+    include_once 'success.php';
 } else {
-    require_once 'templates/checkout/fail.php';
+    include_once 'fail.php';
 }

@@ -2,10 +2,11 @@
 
 if (isset($_POST['submit'])) {
     $token = $_POST['api_token'];
-    $url = 'https://checkoutapi-demo.bill24.net/transaction/init';
-    $checkout_confirm = 'http://localhost/checkout-api/examples/web/php/checkout_confirm.php';
-    $checkout_cancel = 'http://localhost/checkout-api/examples/web/php/checkout_cancel.php';
-    $pay_later_url  = 'http://localhost/checkout-api/examples/web/php/pay_later.php';
+    $api_url = 'https://checkoutapi-demo.bill24.net/transaction/init';
+
+    $checkout_confirm = 'http://localhost:8081/checkout-api/examples/web/php/checkout/checkout_confirm.php';
+    $checkout_cancel = 'http://localhost:8081/checkout-api/examples/web/php/checkout/checkout_cancel.php';
+    $pay_later_url  = 'http://localhost:8081/checkout-api/examples/web/php/checkout/pay_later.php';
 
     $data = [
         'reference_id' => $_POST['order_code'],
@@ -20,7 +21,7 @@ if (isset($_POST['submit'])) {
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => $url,
+        CURLOPT_URL => $api_url,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_SSL_VERIFYPEER => false,
         CURLOPT_ENCODING => "",
