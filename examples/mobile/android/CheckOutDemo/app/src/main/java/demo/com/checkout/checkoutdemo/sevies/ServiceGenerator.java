@@ -12,8 +12,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ServiceGenerator {
 
-    public static final String API_BASE_URL = "https://checkoutapi-dev0.bill24.net/";
-    public static final String TOKEN = "4115698f6cfb432a81dc650cf4f0bad4";
+    public static final String API_BASE_URL = "https://checkoutapi-demo.bill24.net/";
+    public static final String TOKEN = "a8024ffe355342ef890fcebed5ad3009";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 

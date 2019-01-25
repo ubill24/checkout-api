@@ -30,9 +30,9 @@ struct MyDATA: Codable
 
 class ViewController: UIViewController {
     var activityIndicator: UIActivityIndicatorView!
-    let TOKEN:String = "4115698f6cfb432a81dc650cf4f0bad4"
-    let BAE_URL:String = "https://checkoutapi-dev0.bill24.net"
-    var parameters = ["description": "Description" ,"currency": "USD", "amount":100, "reference_id": "YOURA869718501", "webview": true, "pay_later_url": "https://checkoutapi-dev0.bill24.net/checkout/pay-later",] as [String : Any]
+    let TOKEN:String = "a8024ffe355342ef890fcebed5ad3009"
+    let BAE_URL:String = "https://checkoutapi-demo.bill24.net"
+    var parameters = ["description": "Description" ,"currency": "USD", "amount":100, "reference_id": "YOURA869718501", "webview": true, "pay_later_url": "https://checkoutapidemo-demo.bill24.net/checkout/pay-later",] as [String : Any]
     
     @IBOutlet weak var api_token: UITextField!
     @IBOutlet weak var amount: UITextField!

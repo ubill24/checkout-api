@@ -25,16 +25,17 @@ import KeyboardSpacer from 'react-native-keyboard-spacer';
 import Icons from 'react-native-vector-icons/Ionicons';
 const IS_IOS = Platform.OS === 'ios';
 
-
-const TOKEN = '4115698f6cfb432a81dc650cf4f0bad4';
+const API_URL = 'https://checkoutapi-demo.bill24.net';
+const TOKEN = 'a8024ffe355342ef890fcebed5ad3009';
 const DATA = {
     "description": "Extra note",
     "currency": "USD",
     "amount": 1000,
+    "pay_later_url": API_URL+"/checkout/pay-later",
     "reference_id": "YOURA869718501",
     "webview": true
 };
-const API_URL = 'https://checkoutapi-dev0.bill24.net/transaction/init';
+
 
 export default class Main extends React.Component {
     constructor(props){
@@ -53,7 +54,7 @@ export default class Main extends React.Component {
     async _handleCheckOut(){
         const { token , data} = this.state;
         try {
-            let response = await fetch(API_URL,
+            let response = await fetch(API_URL+"/transaction/init",
                 {
                     method: 'POST',
                     headers:{
