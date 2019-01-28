@@ -44,7 +44,6 @@
                             </p>
                         </div>
                     </div>
-                    <hr style="width: 90%;">
                     <table class="table table-bordered">
                         <thead>
                         <tr>
@@ -72,12 +71,12 @@
                             <span class="payment-description">You can use this QR code to mak a payment via B24 online app.</span>
                         </div>
                         <div class="agencies">
-                            <strong class="agencies-title">Pay with agencies:</strong>
+                            <strong class="agencies-title">Pay with App or agencies:</strong>
                             <div class="agencies-img">
                                 <?php
-                                $agencies = $data->biller_codes;
+                                $agencies = $data->app_or_agency_payment_methods;
                                 foreach ($agencies as $agency) {
-                                    echo "<img src='$agency'>";
+                                    echo "<img src='$agency->logo'>";
                                 }
                                 ?>
                             </div>
@@ -86,7 +85,7 @@
                     <div class="print text-center">
                         <a href="#"> <?php echo "<img src='../images/printer.png'​​>" ?></a>
                         <a href="#"><?php echo "<img src='../images/pdf.png'>" ?></a>
-                        <a href="index.php"> <?php echo "<img src='../images/home.png'>" ?></a>
+                        <a href="../index.php"> <?php echo "<img src='../images/home.png'>" ?></a>
                     </div>
                 </div>
             </div>
@@ -97,17 +96,17 @@
 <?php
     echo "
         <script type='text/javascript'>
-        $(document).ready(function () {
-            $('#payment-url-qrcode').qrcode({
-                render: 'image',
-                width: 120,
-                height: 120,
-                text: '<?php $data->payment_url ?>'
+            $(document).ready(function () {
+                $('#payment-url-qrcode').qrcode({
+                    render: 'image',
+                    width: 120,
+                    height: 120,
+                    text: '<?php $data->payment_url ?>'
+                });
+        
             });
-    
-        });
-    </script>
-    ";
+        </script>
+        ";
 ?>
 </body>
 </html>

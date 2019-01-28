@@ -7,5 +7,5 @@ $code = $output['code'];
 $data = json_decode($data);
 
 if ($code == 'PENDING') {
-    include_once 'payment/later.php';
+    include_once '../payment/later.php';
 }
