@@ -19,13 +19,9 @@ Checkout API - for e-commerce integration
 *   Call Javascript Event
 
     WKUserContentController *userContentController = [[WKUserContentController alloc] init];
-    
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
-    
     [userContentController addScriptMessageHandler: self name:@"myOwnJSHandler"];
-    
     configuration.userContentController = userContentController;
-    
      CGRect frame = CGRectMake([[UIScreen mainScreen] bounds].origin.x, [[UIScreen mainScreen] bounds].origin.y, [[UIScreen         mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
      
      _webview = [[WKWebView alloc] initWithFrame:frame configuration:configuration];
