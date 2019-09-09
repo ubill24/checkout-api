@@ -16,7 +16,7 @@ Checkout API - for e-commerce integration
 * [Android Native](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/android)
 * [iOS Native ](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/ios)
 ### Objective-C
-*   Call Javascript Event
+*   Call Javascript Event ( myOwnJSHandler )
 
     WKUserContentController *userContentController = [[WKUserContentController alloc] init];
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
