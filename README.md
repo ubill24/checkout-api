@@ -16,27 +16,15 @@ Checkout API - for e-commerce integration
 * [Android Native](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/android)
 * [iOS Native ](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/ios)
 ### Objective-C
-*  // Do any additional setup after loading the view, typically from a nib.
-    WKUserContentController *userContentController = [[WKUserContentController alloc] init];
-    WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
+*  // Call Javascript Event
     [userContentController addScriptMessageHandler: self name:@"myOwnJSHandler"];
-    configuration.userContentController = userContentController;
+*  // Get Data from Javascript
+    - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage         *)message {
     
-    CGRect frame = CGRectMake([[UIScreen mainScreen] bounds].origin.x, [[UIScreen mainScreen] bounds].origin.y, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height);
+        NSLog(@"%@", message.body);
+    }
     
-    _webview = [[WKWebView alloc] initWithFrame:frame configuration:configuration];
-    // afer get url
-    NSURL *url = [NSURL URLWithString:@"https://demo.bill24.net/checkout/eyJhbGciOiJIUzI1NiIsImV......"];
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     
-    [_webview loadRequest:urlRequest];
-    
-    [self.view addSubview:_webview];
-    
-* - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
-    
-    NSLog(@"%@", message.body);
-}
 * [IOS Objective-C ] (https://github.com/ubill24/checkout-api/tree/master/examples/mobile/ios-objective-c/B24%20Checkout)
 * [ReactNative (iOS+Android)](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/react)
 * Flutter (iOS+Android) (Comming soon...)
