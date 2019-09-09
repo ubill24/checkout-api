@@ -16,10 +16,10 @@ Checkout API - for e-commerce integration
 * [Android Native](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/android)
 * [iOS Native ](https://github.com/ubill24/checkout-api/tree/master/examples/mobile/ios)
 ### Objective-C
-*  // Call Javascript Event
+*   Call Javascript Event
 
     [userContentController addScriptMessageHandler: self name:@"myOwnJSHandler"];
-*  // Get Data from Javascript
+*   Get Data from Javascript
 
     - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage         *)message {
     
