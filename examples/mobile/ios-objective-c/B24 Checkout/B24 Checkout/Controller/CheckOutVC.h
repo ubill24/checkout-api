@@ -5,9 +5,15 @@
 //  Created by Youra Dev on 9/9/19.
 //  Copyright © 2019 Youra Dev. All rights reserved.
 //
+#import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
-#ifndef CheckOutVC_h
-#define CheckOutVC_h
+@interface CheckOutVC : UIViewController <WKScriptMessageHandler>
+
+@property(nonatomic, strong) WKWebView *webview;
+
+@property (nonatomic, assign) BOOL isSomethingEnabled;
+
+@end
 
 
-#endif /* CheckOutVC_h */

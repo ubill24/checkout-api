@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		AEEF730E2326327E00D07DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF730D2326327E00D07DC6 /* AppDelegate.m */; };
 		AEEF73112326327E00D07DC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF73102326327E00D07DC6 /* ViewController.m */; };
-		AEEF73142326327E00D07DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEF73122326327E00D07DC6 /* Main.storyboard */; };
+		AEEF73142326327E00D07DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEF73122326327E00D07DC6 /* Main.storyboard */; settings = {ASSET_TAGS = (CheckOutVC, ); }; };
 		AEEF73162326327F00D07DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEF73152326327F00D07DC6 /* Assets.xcassets */; };
 		AEEF73192326327F00D07DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEF73172326327F00D07DC6 /* LaunchScreen.storyboard */; };
 		AEEF731C2326327F00D07DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF731B2326327F00D07DC6 /* main.m */; };
 		AEEF73262326327F00D07DC6 /* B24_CheckoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF73252326327F00D07DC6 /* B24_CheckoutTests.m */; };
 		AEEF73312326327F00D07DC6 /* B24_CheckoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF73302326327F00D07DC6 /* B24_CheckoutUITests.m */; };
+		AEEF7344232637B100D07DC6 /* CheckOut.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF7343232637B100D07DC6 /* CheckOut.m */; };
+		AEEF734823263A4000D07DC6 /* CheckOutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEF734723263A4000D07DC6 /* CheckOutVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		AEEF732C2326327F00D07DC6 /* B24 CheckoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "B24 CheckoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEF73302326327F00D07DC6 /* B24_CheckoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B24_CheckoutUITests.m; sourceTree = "<group>"; };
 		AEEF73322326327F00D07DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEF7343232637B100D07DC6 /* CheckOut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckOut.m; sourceTree = "<group>"; };
+		AEEF734723263A4000D07DC6 /* CheckOutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckOutVC.m; sourceTree = "<group>"; };
+		AEEF734923264C6200D07DC6 /* CheckOutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckOutVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +106,14 @@
 		AEEF730B2326327E00D07DC6 /* B24 Checkout */ = {
 			isa = PBXGroup;
 			children = (
-				AEEF730C2326327E00D07DC6 /* AppDelegate.h */,
-				AEEF730D2326327E00D07DC6 /* AppDelegate.m */,
-				AEEF730F2326327E00D07DC6 /* ViewController.h */,
-				AEEF73102326327E00D07DC6 /* ViewController.m */,
-				AEEF73122326327E00D07DC6 /* Main.storyboard */,
-				AEEF73152326327F00D07DC6 /* Assets.xcassets */,
-				AEEF73172326327F00D07DC6 /* LaunchScreen.storyboard */,
 				AEEF731A2326327F00D07DC6 /* Info.plist */,
+				AEEF730F2326327E00D07DC6 /* ViewController.h */,
+				AEEF7345232637CD00D07DC6 /* Resources */,
+				AEEF73422326379500D07DC6 /* Model */,
+				AEEF73412326374700D07DC6 /* Application */,
+				AEEF73402326372600D07DC6 /* Controller */,
+				AEEF733E2326339A00D07DC6 /* View */,
+				AEEF73172326327F00D07DC6 /* LaunchScreen.storyboard */,
 				AEEF731B2326327F00D07DC6 /* main.m */,
 			);
 			path = "B24 Checkout";
@@ -130,6 +135,57 @@
 				AEEF73322326327F00D07DC6 /* Info.plist */,
 			);
 			path = "B24 CheckoutUITests";
+			sourceTree = "<group>";
+		};
+		AEEF733E2326339A00D07DC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF733F232633E100D07DC6 /* storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEEF733F232633E100D07DC6 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF73122326327E00D07DC6 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		AEEF73402326372600D07DC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF73102326327E00D07DC6 /* ViewController.m */,
+				AEEF734723263A4000D07DC6 /* CheckOutVC.m */,
+				AEEF734923264C6200D07DC6 /* CheckOutVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEEF73412326374700D07DC6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF730C2326327E00D07DC6 /* AppDelegate.h */,
+				AEEF730D2326327E00D07DC6 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AEEF73422326379500D07DC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF7343232637B100D07DC6 /* CheckOut.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEEF7345232637CD00D07DC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEF73152326327F00D07DC6 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +250,9 @@
 		AEEF73012326327E00D07DC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					CheckOutVC,
+				);
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Youra Dev";
 				TargetAttributes = {
@@ -263,8 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEF73112326327E00D07DC6 /* ViewController.m in Sources */,
+				AEEF734823263A4000D07DC6 /* CheckOutVC.m in Sources */,
 				AEEF731C2326327F00D07DC6 /* main.m in Sources */,
 				AEEF730E2326327E00D07DC6 /* AppDelegate.m in Sources */,
+				AEEF7344232637B100D07DC6 /* CheckOut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
